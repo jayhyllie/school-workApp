@@ -84,7 +84,8 @@ const restaurants = [
 
 const activityFoodPlaces = [
   {
-    imgUrl: "https://images.unsplash.com/photo-1602058450186-538e6a957aec",
+    imgUrl:
+      "https://images.unsplash.com/photo-1545056453-f0359c3df6db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     name: "Bowl-o-rama",
     address: "Kungsgatan 10, Stockholm",
     foodType: "Amerikansk",
@@ -94,7 +95,8 @@ const activityFoodPlaces = [
   },
 
   {
-    imgUrl: "https://images.unsplash.com/photo-1616558226147-04736a8d073e",
+    imgUrl:
+      "https://images.unsplash.com/photo-1544281153-6603be88b354?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
     name: "The Billiard Room",
     address: "Storgatan 12, Göteborg",
     foodType: "Pubmat",
@@ -104,7 +106,8 @@ const activityFoodPlaces = [
   },
 
   {
-    imgUrl: "https://images.unsplash.com/photo-1563986768621-39f8c4ad57cb",
+    imgUrl:
+      "https://images.unsplash.com/photo-1626890631686-0b3113188c48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     name: "Airhockey Arena",
     address: "Sveavägen 15, Malmö",
     foodType: "Snabbmat",
@@ -114,7 +117,8 @@ const activityFoodPlaces = [
   },
 
   {
-    imgUrl: "https://images.unsplash.com/photo-1560829721-5152ade7e9b6",
+    imgUrl:
+      "https://images.unsplash.com/photo-1593349480785-6ba0825f57f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     name: "Lasertag Center",
     address: "Drottninggatan 8, Uppsala",
     foodType: "Pizza",
@@ -124,7 +128,8 @@ const activityFoodPlaces = [
   },
 
   {
-    imgUrl: "https://images.unsplash.com/photo-1534790566856-8d80cf4e6d4b",
+    imgUrl:
+      "https://images.unsplash.com/photo-1514313122851-5167c4fca5d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     name: "Bowl & Bite",
     address: "Sturegatan 2, Örebro",
     foodType: "Burgare",
@@ -134,7 +139,8 @@ const activityFoodPlaces = [
   },
 
   {
-    imgUrl: "https://images.unsplash.com/photo-1528483118903-8e7a3f8b3d7e",
+    imgUrl:
+      "https://images.unsplash.com/photo-1545062080-a71640ea75a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmlsbGlhcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     name: "Klubb Spelrum",
     address: "Birger Jarlsgatan 7, Norrköping",
     foodType: "Gourmetpizzor",
@@ -144,7 +150,8 @@ const activityFoodPlaces = [
   },
 
   {
-    imgUrl: "https://images.unsplash.com/photo-1500543546334-2f53a3a04375",
+    imgUrl:
+      "https://images.unsplash.com/photo-1650916010290-faa4988c56d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     name: "Luftish",
     address: "Hornsgatan 42, Stockholm",
     foodType: "Vegansk",
@@ -154,7 +161,8 @@ const activityFoodPlaces = [
   },
 
   {
-    imgUrl: "https://images.unsplash.com/photo-1550511025-021fa49f84f1",
+    imgUrl:
+      "https://images.unsplash.com/photo-1582008558029-34f157a939b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     name: "Krog & Lek",
     address: "Södra Strandgatan 7, Helsingborg",
     foodType: "Fisk & skaldjur",
@@ -164,7 +172,8 @@ const activityFoodPlaces = [
   },
 
   {
-    imgUrl: "https://images.unsplash.com/photo-1569382297437-83a09d28fcd9",
+    imgUrl:
+      "https://images.unsplash.com/photo-1553190920-a9c7432283e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1279&q=80",
     name: "Bowlinghallen",
     address: "Klostergatan 12, Lund",
     foodType: "Kebab",
@@ -174,7 +183,8 @@ const activityFoodPlaces = [
   },
 
   {
-    imgUrl: "https://images.unsplash.com/photo-1559828435-6fc9460cb05e",
+    imgUrl:
+      "https://images.unsplash.com/photo-1556340006-ffa792cc226a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     name: "Spelkaféet",
     address: "Södergatan 20, Halmstad",
     foodType: "Fika",
