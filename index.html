@@ -1,45 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>After Work Vote</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="loading"></div>
     <header class="header">
-        <figure>
-            <img src="/assets/Logo.svg" alt="logo" class="logo">
-        </figure>
         <button class="mobile-nav-toggle" aria-controls="primary__nav" aria-expanded="false"></button>
 
-        <nav class="navigation">
-            <ul>
-                <li>Profil</li>
-                <li>Statistik</li>
-                <li>Veckans AW</li>
-                <li>Historik</li>
-            </ul>
-        </nav>
+      <nav class="navigation">
+        <ul>
+          <li>Profil</li>
+          <li>Statistik</li>
+          <li>Veckans AW</li>
+          <li>Historik</li>
+        </ul>
+      </nav>
     </header>
     <main class="main">
-        <article class="main__card">
-            <img src="/assets/activity-option.jpg" alt="">
-            <h2>Aktivitet + Mat</h2>
-            <button>Välj</button>
-        </article>
-        <article class="main__card">
-            <img src="/assets/food-option.jpg" alt="">
-            <h2>Mat</h2>
-            <button>Välj</button>
-        </article>
+        <article class="main__activity"></article>
+        <article class="main__food"></article>
     </main>
-
-    <script src="index.js"></script>
 </body>
 
 </html>
