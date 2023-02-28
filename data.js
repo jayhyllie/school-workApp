@@ -1,1 +1,1 @@
-let restaurants = {}
+const restaurants = {}
