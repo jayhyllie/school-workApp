@@ -11,4 +11,5 @@ function findHighestVOte() {
   }
 
   result = restaurants.find((restaurant) => restaurant.votes === maxVotes);
+  console.log(result);
 }
