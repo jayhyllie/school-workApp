@@ -1,6 +1,6 @@
 import { restaurants, activityFoodPlaces } from "./data.js";
-// funktion som loopar över alternativen och returnerar högsta
 
+// funktion som loopar över alternativen och returnerar högsta
 function findHighestVOte(array) {
   let maxVotes = 0;
   let result;
@@ -12,10 +12,13 @@ function findHighestVOte(array) {
   }
 
   result = array.find((restaurant) => restaurant.votes === maxVotes);
-  console.log(result);
   return result
 }
 
-
-let restaurantResult = findHighestVOte(restaurants)
-console.log(restaurantResult)
+//funktion som renderar ut korten och sätter eventlystnare på dem
+function renderCards(array) {
+  array.forEach(alternative => {
+    //rendera html
+    //sätt eventlystnare
+  })
+}
