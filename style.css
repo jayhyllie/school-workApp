@@ -27,15 +27,81 @@ body {
     background: var(--bg-primary);
     display: none;
 }
-.navigation {
-    display: none;
-}
 .header {
-    width: 100vw;
-    height: 100px;
-    background-image: url(/Logo.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+/* Navigation */
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    background: var(--bg-primary);
+}
+.navigation {
+    --gap: 2em;
+
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 30%;
+
+    flex-direction: column;
+    padding: min(30vh, 10rem) 2rem;
+
+    transform: translateX(100%);
+    transition: transform 500ms ease-in-out;
 }
 
+.navigation[data-visible='true'] {
+    transform: translateX(0%);
+}
+
+.mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    width: 2rem;
+    border: 0;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 2rem;
+    background-color: transparent;
+    background-image: url('/assets/icon-hamburger.svg');
+    background-repeat: no-repeat;
+}
+.mobile-nav-toggle[aria-expanded='true'] {
+    background-image: url('/assets/icon-close.svg');
+    background-repeat: no-repeat;
+}
+
+/* Main -- Index */
+.main {
+    display: grid;
+    place-content: center;
+    gap: 2em;
+}
+.main__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border: 1px solid var(--text-hover);
+    border-radius: .25em;
+    padding: 1em;
+}
+.main__card img {
+    width: 100%;
+    max-height: 15rem;
+    object-fit: cover;
+}
+.main__card button {
+    width: 20rem;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    padding: .5em 2em;
+    text-align: center;
+    border: none;
+    border-radius: .5em;
+}

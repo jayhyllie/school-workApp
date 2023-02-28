@@ -12,6 +12,9 @@
 <body>
     <div class="loading"></div>
     <header class="header">
+        <figure>
+            <img src="/assets/Logo.svg" alt="logo" class="logo">
+        </figure>
         <button class="mobile-nav-toggle" aria-controls="primary__nav" aria-expanded="false"></button>
 
         <nav class="navigation">
@@ -24,9 +27,19 @@
         </nav>
     </header>
     <main class="main">
-        <article class="main__activity"></article>
-        <article class="main__food"></article>
+        <article class="main__card">
+            <img src="/assets/activity-option.jpg" alt="">
+            <h2>Aktivitet + Mat</h2>
+            <button>Välj</button>
+        </article>
+        <article class="main__card">
+            <img src="/assets/food-option.jpg" alt="">
+            <h2>Mat</h2>
+            <button>Välj</button>
+        </article>
     </main>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
