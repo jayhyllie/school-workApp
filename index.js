@@ -18,3 +18,4 @@ function findHighestVOte(array) {
 
 
 let restaurantResult = findHighestVOte(restaurants)
+console.log(restaurantResult)
