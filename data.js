@@ -7,7 +7,7 @@ const restaurants = [
         foodType: "Italiensk",
         url: "https://tavolo.se/",
         openingHours: "Mån-Sön 11:00-23:00",
-        votes: 0
+        votes: 8
     },
     {
         imgUrl: "https://source.unsplash.com/random/800x600/?restaurant",
@@ -16,7 +16,7 @@ const restaurants = [
         foodType: "Amerikansk",
         url: "https://bbqsteakhouse.se/",
         openingHours: "Mån-Fre 11:00-22:00, Lör-Sön 11:00-23:00",
-        votes: 0
+        votes: 1
       },
       {
         imgUrl: "https://source.unsplash.com/random/800x600/?restaurant",
@@ -34,7 +34,7 @@ const restaurants = [
         foodType: "Mexikansk",
         url: "https://tacobar.se/",
         openingHours: "Mån-Sön 11:00-23:00",
-        votes: 0
+        votes: 2
       },
       {
         imgUrl: "https://source.unsplash.com/random/800x600/?restaurant",
@@ -43,7 +43,7 @@ const restaurants = [
         foodType: "Thailändsk",
         url: "http://thaihousevasa.se/",
         openingHours: "Mån-Sön 11:30-22:00",
-        votes: 0
+        votes: 5
       },
       {
         imgUrl: "https://source.unsplash.com/random/800x600/?restaurant",
@@ -52,7 +52,7 @@ const restaurants = [
         foodType: "Fransk",
         url: "https://bise.se/",
         openingHours: "Mån-Sön 18:00-23:00",
-        votes: 0
+        votes: 2
       },
       {
         imgUrl: "https://source.unsplash.com/random/800x600/?restaurant",
@@ -61,7 +61,7 @@ const restaurants = [
         foodType: "Indisk",
         url: "http://jarntorget.restaurangbombay.se/",
         openingHours: "Mån-Sön 12:00-22:30",
-        votes: 0
+        votes: 1
       },
       {
         imgUrl: "https://source.unsplash.com/random/800x600/?restaurant",
@@ -79,7 +79,7 @@ const restaurants = [
         foodType: "Japansk",
         url: "http://www.sushikaze.se/",
         openingHours: "Mån-Sön 11:30-22:00",
-        votes: 0
+        votes: 7
       },
       {
         imgUrl: "https://source.unsplash.com/random/800x600/?restaurant",
@@ -88,7 +88,7 @@ const restaurants = [
         foodType: "Svensk",
         url: "https://www.gunnarskok.se/",
         openingHours: "Mån-Sön 11:00-21:00",
-        votes: 0
+        votes: 2
       }
 ]
 
@@ -102,7 +102,7 @@ const activityFoodPlaces = [
     activityType: "Bowling",
     url: "http://www.bowl-o-rama.se",
     openingHours: "Mån-Fre 12-22, Lör-Sön 10-23",
-    votes: 0
+    votes: 1
   },
 
   {
@@ -114,7 +114,7 @@ const activityFoodPlaces = [
     activityType: "Biljard",
     url: "http://www.billiardroom.se",
     openingHours: "Mån-Fre 16-01, Lör-Sön 12-01",
-    votes: 0
+    votes: 3
   },
 
   {
@@ -126,7 +126,7 @@ const activityFoodPlaces = [
     activityType: "Airhockey",
     url: "http://www.airhockeyarena.se",
     openingHours: "Mån-Fre 14-22, Lör-Sön 10-23",
-    votes: 0
+    votes: 2
   },
 
   {
@@ -138,7 +138,7 @@ const activityFoodPlaces = [
     activityType: "Lasertag",
     url: "http://www.lasertagcenter.se",
     openingHours: "Mån-Fre 15-22, Lör-Sön 12-23",
-    votes: 0
+    votes: 1
   },
 
   {
@@ -150,7 +150,7 @@ const activityFoodPlaces = [
     activityType: "Bowling",
     url: "http://www.bowl-bite.se",
     openingHours: "Mån-Fre 12-22, Lör-Sön 10-23",
-    votes: 0
+    votes: 7
   },
 
   {
@@ -162,7 +162,7 @@ const activityFoodPlaces = [
     activityType: "Biljard",
     url: "http://www.spelrum.se",
     openingHours: "Mån-Fre 16-01, Lör-Sön 12-01",
-    votes: 0
+    votes: 1
   },
 
   {
@@ -174,7 +174,7 @@ const activityFoodPlaces = [
     activityType: "Airhockey",
     url: "http://www.luftish.se",
     openingHours: "Mån-Fre 14-22, Lör-Sön 10-23",
-    votes: 0
+    votes: 2
   },
 
   {
@@ -186,7 +186,7 @@ const activityFoodPlaces = [
     activityType: "Lasertag",
     url: "http://www.krog-och-lek.se",
     openingHours: "Mån-Fre 15-22, Lör-Sön 12-23",
-    votes: 0
+    votes: 3
   },
 
   {
@@ -198,7 +198,7 @@ const activityFoodPlaces = [
     activityType: "Bowling",
     url: "http://www.bowlinghallen.se",
     openingHours: "Mån-Fre 12-22, Lör-Sön 10-23",
-    votes: 0
+    votes: 2
   },
 
   {
@@ -210,7 +210,7 @@ const activityFoodPlaces = [
     activityType: "Biljard",
     url: "http://www.spelkafeet.se",
     openingHours: "Mån-Fre 16-01, Lör-Sön 12-01",
-    votes: 0
+    votes: 4
   },
 ];
 
