@@ -1,3 +1,4 @@
+import { restaurants, activityFoodPlaces } from "./data.js";
 // funktion som loopar över alternativen och returnerar högsta
 
 function findHighestVOte() {
