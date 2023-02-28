@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+:root {
+    --bg-primary: linear-gradient(#e66465, #9198e5);
+
+    --text-primary: #fff;
+    --text-secondary: hsl(235, 19%, 35%);
+    --text-hover: hsl(235, 24%, 19%);
+
+    --clr-accent: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+}
+
+/* General */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.loading {
+    height: 100vh;
+    background: var(--bg-primary);
+    display: none;
+}
+.navigation {
+    display: none;
+}
+.header {
+    width: 100vw;
+    height: 100px;
+    background-image: url(/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
