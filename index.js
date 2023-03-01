@@ -16,7 +16,18 @@ function findHighestVOte(array) {
 //funktion som renderar ut korten och sätter eventlystnare på dem
 function renderCards(array) {
   array.forEach(alternative => {
-    //rendera html
-    //sätt eventlystnare
+    //funktion som tar ett objekt och returnerar ett html-element
+    let cardEl = makeAlternativeCard(card)
+
+    //lägg till eventlystnare på cardEL och lägg in i ui:n
   })
 }
+
+function makeAlternativeCard(card) {
+  let cardEl = document.createElement(/*vad det nu ska vara*/)
+  cardEl.innerHTML = ``
+  cardEl.classList.add() //eventuellt också på dess children
+  return cardEL
+}
+
+//hallå hallå
