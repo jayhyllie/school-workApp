@@ -9,7 +9,9 @@
   </head>
 
   <body>
-    <div class="loading"></div>
+    <div class="loading slide-out-fwd-center">
+      <img src="/assets/Logo NEW.png" alt="logga">
+    </div>
     <header class="header">
         <figure>
             <img src="/assets/Logo NEW.png" alt="logo">
@@ -20,20 +22,28 @@
         <ul role="list">
           <li>Profil</li>
           <li>Statistik</li>
-          <li>Veckans AW</li>
+          <li id="winner-btn">Veckans AW</li>
           <li>Historik</li>
         </ul>
       </nav>
     </header>
     <main class="main">
-        <article class="main__activity">
-            
-        </article>
-        <article class="main__food">
-            
+        <article class="main__card">
+            <img src="/assets/activity-option.jpg" alt="" class="card--image">
+            <section class='main__card--info'>
+              <h2 class="info--name">Aktivitet & Mat</h2>
+              <button id="activity-btn">Välj</button>
+            </section>
+        </article> 
+        <article class="main__card">
+            <img src="/assets/food-option.jpg" alt="">
+            <section class="main__card--info">
+            <h2>Mat</h2>
+            <button id="food-btn">Välj</button>
+          </section>
         </article>
     </main>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
 </body>
 
 </html>
